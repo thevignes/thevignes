@@ -7,4 +7,5 @@ Just another curious dev who breaks stuff to learn how they work 🔨
 - **Primary**: Node.js, MongoDB, React,C,Java
 - **Architecture**: MVC, Clean Code, Microservices  
 
+[GitHub Contribution Snake](https://github.com/your-username/your-username/blob/output/github-contribution-grid-snake.svg)
 
