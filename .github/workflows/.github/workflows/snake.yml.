@@ -1,0 +1,21 @@
+name: Generate Snake Contribution Grid
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs every midnight (UTC)
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate the contribution grid snake
+        uses: Platane/snk@master
+        with:
+          github_user_name: vignesh
+          outputs: "github-snake-dark.svg"
+          
+      - name: Push the updated snake graph
+        uses: actions/upload-artifact@v2
+        with:
+          name: contribution-grid
+          path: github-snake-dark.svg
