@@ -1,3 +1,6 @@
+
+![GitHub Contribution Snake](https://github.com/your-username/your-username/blob/output/github-contribution-grid-snake.svg)
+
 # Hello World! 👋
 
 Just another curious dev who breaks stuff to learn how they work 🔨  
@@ -8,5 +11,5 @@ Just another curious dev who breaks stuff to learn how they work 🔨
 - **Architecture**: MVC, Clean Code, Microservices
 - **Concepts**: UML, System design, solid principles
 
-[GitHub Contribution Snake](https://github.com/your-username/your-username/blob/output/github-contribution-grid-snake.svg)
+![GitHub Contribution Snake](https://github.com/your-username/your-username/blob/output/github-contribution-grid-snake.svg)
 
