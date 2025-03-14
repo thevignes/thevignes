@@ -8,14 +8,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
       - name: Generate the contribution grid snake
         uses: Platane/snk@master
         with:
-          github_user_name: vignesh
-          outputs: "github-snake-dark.svg"
-          
+          github_user_name: vignesh  # Replace with your actual GitHub username
+          outputs: dist/github-snake-dark.svg
+
       - name: Push the updated snake graph
         uses: actions/upload-artifact@v2
         with:
           name: contribution-grid
-          path: github-snake-dark.svg
+          path: dist/github-snake-dark.svg
+
